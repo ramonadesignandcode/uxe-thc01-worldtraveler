@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+/* CSS Reset */
+* { 
+	box-sizing: border-box;  
+	padding: 0;  
+	margin: 0;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #EEEFF2;
+	color: #333333;
+	padding: 9rem 10.1rem;
+}
+
+h1 {
+	font-size: 4.8rem;
+	font-weight: 300;
+	color: #333333;
+	letter-spacing: -0.9px; 
+}
+
+h1.img {
+	width: 57rem;
+}
+
+h2 {
+	font-size: 3rem;
+	letter-spacing: -0.3px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2.4rem;
+	letter-spacing: -0.3px;
+	font-weight: 700;
+
+}
+
+p {
+	font-weight: 400;
+	font-size: 1.6rem;
+}
+
+.lead {
+	font-weight: 400;
+	font-size: 1.8rem;
+}
+
+.small-light {
+	font-size: 1.4rem;
+	color: #888888;
+	letter-spacing: 0.5px;
+	text-align: left;
+	font-weight: 600;
+}
+.small-dark {
+	font-size: 1.6rem;
+	color: #333333;
+	letter-spacing: 0.5px;
+	text-align: left;
+	font-weight: 700;
+}
+
+
+/* World Traveler Chips */
+.image-wrapper {
+	position: relative;
+}
+.image-wrapper .chip-text {
+	position: absolute;
+	display: inline-block;
+	padding: 4px 8px; 
+	z-index: 2;
+}
+.image-wrapper .chip-yellow {
+	background-color: #FFFFFF;
+	color: #333333;
+	font-weight: 600;
+	top: 20px;
+	left: -5px;
+	border-left: 5px #F7B500 solid;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+.image-wrapper .chip-blue {
+	background-color: #FFFFFF;
+	color: #333333;
+	font-weight: 600;
+	top: 20px;
+	left: -5px;
+	border-left: 5px #32C5FF solid;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+/* World Traveller Helpers */
+.wt-pl-3 {
+	padding-left:3rem;
+	box-sizing: border-box;  
+}
+.wt-ml-3 {
+	margin-left:3rem;
+	overflow: hidden; 
+}
